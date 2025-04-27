@@ -1,0 +1,5 @@
+.env
+venv/
+train_data/crime_data_uk/
+__pycache__
+.DS_Store
