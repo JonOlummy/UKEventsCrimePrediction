@@ -7,7 +7,7 @@ import time
 server_local = mindsdb_sdk.connect('http://127.0.0.1:47334')
 
 model = server_local.create_model(
-    name='uk_crime_predictor',
+    name='uk_crime_predictor_4',
     predict='CRIME_TYPE',  
     query=f'''
             SELECT LONGITUDE, LATITUDE, MONTH, LOCATION, CRIME_TYPE, LSOA_NAME
@@ -18,6 +18,7 @@ model = server_local.create_model(
                 AND LATITUDE IS NOT NULL
                 AND CRIME_TYPE IS NOT NULL
                 AND CRIME_ID IS NOT NULL
+                AND LSOA_NAME IS NOT NULL
             ) AS unique_data;
     ''',  
     database='snowflake_data',
