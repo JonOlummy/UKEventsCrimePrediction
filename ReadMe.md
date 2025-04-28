@@ -137,4 +137,4 @@ Returns a list of crime counts by type for the specified location and date range
 
 ## 📹 Demo Video
 
-[Click here to watch the demo video on Loom](https://www.loom.com/share/b01984879c3442268ef4d81ecad3a184?sid=7a0f02d2-4eae-45f9-99a6-f2b0b7c581a5)
+[Click here to watch the demo video on Loom](https://www.loom.com/share/4b4eaf7fd91e4fdab0c35db4eac8e707?sid=65465893-bf0b-43b3-9044-4db095d65202)
